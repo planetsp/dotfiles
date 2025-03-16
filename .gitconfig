@@ -1,0 +1,12 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://github.gatech.edu"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = kevinkusi@proton.me
+	name = Kevin Kusi
