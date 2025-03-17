@@ -1,4 +1,7 @@
 *
+!.config/
+!.config/sway/
+!.config/sway/config
 !.alacritty.toml
 !.vimrc
 !.zshrc
