@@ -13,7 +13,6 @@ compinit
 # End of lines added by compinstall
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /etc/profile.d/google-cloud-cli.sh
 PROMPT="%B%F{25}%n%f%b @ %d%F{yellow} $%f "
 
 alias gatech="cd ~/gatech/"

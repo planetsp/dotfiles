@@ -22,10 +22,7 @@ set $menu wmenu-run -f $MyFont -l 3
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output DP-2 bg ~/Pictures/wallpapers/1740352074278297.jpg  fit
-output HDMI-A-1 bg ~/Pictures/wallpapers/1662292149745881.png fit
-output HDMI-A-1 mode 2560x1440@144Hz
-
+output * bg ~/Pictures/wallpapers/thanatos.jpg  fit
 #
 # Example configuration:
 #
@@ -220,7 +217,8 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    status_command i3blocks
+    
     font $MyFont
     colors {
         statusline #ffffff
