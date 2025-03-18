@@ -227,6 +227,6 @@ bar {
     }
 }
 font pango:Cozette 10
-gaps inner 10
+gaps inner 2
 set $menu wmenu-run -f "Cozette 10 @wght=200" -l 3
 include /etc/sway/config.d/*
