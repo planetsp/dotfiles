@@ -6,3 +6,5 @@
 !.vimrc
 !.zshrc
 !.git*
+!.battery.sh
+!.i3blocks.conf
