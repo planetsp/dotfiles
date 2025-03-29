@@ -4,3 +4,8 @@ opacity = 0.8
 [font]
 normal= {family ="Cozette", style = "Regular"}
 size = 12
+
+[keyboard]
+bindings = [
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" }
+]

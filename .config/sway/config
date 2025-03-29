@@ -23,7 +23,7 @@ set $menu wmenu-run -f $MyFont -l 3
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output DP-2 bg ~/Pictures/wallpapers/1740352074278297.jpg  fit
-output HDMI-A-1 bg ~/Pictures/wallpapers/1662292149745881.png fit
+output HDMI-A-1 bg ~/Pictures/wallpapers/1740352002989382.jpg fit
 output HDMI-A-1 mode 2560x1440@144Hz
 
 #
@@ -37,10 +37,10 @@ output HDMI-A-1 mode 2560x1440@144Hz
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#          before-sleep 'swaylock -f -c 000000'
+ exec swayidle -w \
+          timeout 300 'swaylock -f -c 000000' \
+          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+          before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -202,6 +202,9 @@ bindsym $mod+r mode "resize"
 #
     # Special keys to adjust volume via PulseAudio
     bindsym --locked XF86AudioMute exec pactl set-sink-mute \@DEFAULT_SINK@ toggle
+    bindsym --locked XF86AudioPlay exec "playerctl play-pause"
+    bindsym --locked XF86AudioNext exec "playerctl next"
+    bindsym --locked XF86AudioPrev exec "playerctl previous"
     bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5%
     bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5%
     bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
