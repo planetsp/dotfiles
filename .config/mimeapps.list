@@ -23,6 +23,7 @@ image/png=org.gnome.Loupe.desktop
 application/epub+zip=com.github.johnfactotum.Foliate.desktop
 image/heif=org.gnome.Loupe.desktop
 application/x-shellscript=vim.desktop
+application/vnd.comicbook-rar=org.gnome.Evince.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Nightly-5ISDV2.desktop;firefox.desktop;
@@ -48,3 +49,4 @@ image/png=org.gnome.Loupe.desktop;
 application/epub+zip=com.github.johnfactotum.Foliate.desktop;
 image/heif=org.gnome.Loupe.desktop;
 application/x-shellscript=vim.desktop;
+application/vnd.comicbook-rar=org.gnome.Evince.desktop;

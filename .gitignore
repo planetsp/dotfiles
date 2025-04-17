@@ -2,6 +2,7 @@
 !.config/
 !.config/sway/
 !.config/sway/config
+!.config/sway/status.sh
 !.alacritty.toml
 !.vimrc
 !.zshrc
