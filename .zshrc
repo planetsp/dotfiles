@@ -17,4 +17,4 @@ source /etc/profile.d/google-cloud-cli.sh
 PROMPT="%B%F{25}%n%f%b @ %d%F{yellow} $%f "
 
 alias gatech="cd ~/gatech/"
-alias aos="cd ~/gatech/aos"
+alias sat="cd ~/gatech/sat"
