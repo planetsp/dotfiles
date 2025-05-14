@@ -16,4 +16,4 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 PROMPT="%B%F{25}%n%f%b @ %d%F{yellow} $%f "
 
 alias gatech="cd ~/gatech/"
-alias aos="cd ~/gatech/aos"
+alias sat="cd ~/gatech/sat"
