@@ -22,7 +22,7 @@ set $menu wmenu-run -f $MyFont -l 3
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/wallpapers/thanatos.jpg  fit
+output * bg ~/Pictures/wallpapers/maya.png  fill
 #
 # Example configuration:
 #
@@ -208,6 +208,7 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grim
 
+client.focused #994c4c #772828 #ffffff
 #
 # Status Bar:
 #
@@ -222,6 +223,7 @@ bar {
     font $MyFont
     colors {
         statusline #ffffff
+        focused_workspace #994c4c #772828 #ffffff
         background #323232
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
