@@ -18,3 +18,4 @@ PROMPT="%B%F{25}%n%f%b @ %d%F{yellow} $%f "
 
 alias gatech="cd ~/gatech/"
 alias sat="cd ~/gatech/sat"
+alias run-docker-sat="docker run -v ~/gatech/sat/labs:/home/cs6340/labs -v home_cs5340:/home/cs6340 -it mstephenson6/cs6340-fall21-labs"
