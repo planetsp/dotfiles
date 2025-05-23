@@ -15,15 +15,27 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 set $term alacritty
+
+set $MyFont Cozette 10 @wght=200
+set $primarycolor #285577
+set $secondarycolor #4c7899
+set $textcolor #ffffff
+
+
 # Your preferred application launcher
-set $MyFont "Cozette 10 @wght=200"
-set $menu wmenu-run -f $MyFont -l 3
+set $menu wmenu-run -f \"$MyFont\" -l 3 -S \"$primarycolor\"
+client.focused $secondarycolor $primarycolor $textcolor
+font pango:$MyFont
+gaps inner 10
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output DP-2 bg ~/Pictures/wallpapers/1740352074278297.jpg  fit
-output HDMI-A-1 bg ~/Pictures/wallpapers/1740352002989382.jpg fit
+set $wp1 ~/Pictures/wallpapers/1740352074278297.jpg 
+set $wp2  ~/Pictures/wallpapers/1740352002989382.jpg 
+
+output DP-2 bg $wp1 fit
+output HDMI-A-1 bg $wp2 fit
 output HDMI-A-1 mode 2560x1440@144Hz
 
 #
@@ -226,12 +238,10 @@ bar {
     status_command exec ~/.config/sway/status.sh
     font $MyFont
     colors {
-        statusline #ffffff
+        statusline $textcolor
+        focused_workspace $secondarycolor $primarycolor $textcolor
         background #323232
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
 }
-font pango:Cozette 10
-gaps inner 10
-set $menu wmenu-run -f "Cozette 10 @wght=200" -l 3
 include /etc/sway/config.d/*
