@@ -31,8 +31,8 @@ gaps inner 10
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-set $wp1 ~/Pictures/wallpapers/1740352074278297.jpg 
-set $wp2  ~/Pictures/wallpapers/1740352002989382.jpg 
+set $wp1 ~/Pictures/wallpapers/1656537653453.png 
+set $wp2  ~/Pictures/wallpapers/1690736142396028.png
 
 output DP-2 bg $wp1 fit
 output HDMI-A-1 bg $wp2 fit
