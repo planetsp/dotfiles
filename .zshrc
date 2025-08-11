@@ -11,8 +11,8 @@ zstyle :compinstall filename '~/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PROMPT="%B%F{25}%n%f%b @ %d%F{yellow} $%f "
 
 alias gatech="cd ~/gatech/"
