@@ -1,5 +1,6 @@
 *
 !.config/
+!.pkglist.txt
 !.config/sway/
 !.config/sway/config
 !.config/sway/status.sh
