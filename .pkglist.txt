@@ -5,6 +5,7 @@ aws-cli
 baobab
 base
 base-devel
+chromium
 cmake
 cmatrix
 cozette-otb
@@ -19,6 +20,7 @@ epiphany
 evince
 fastfetch
 feh
+firefox
 gdm
 git
 github-cli
@@ -87,8 +89,8 @@ pamixer
 plasma-desktop
 postgresql
 qbittorrent
-r8125-dkms
 razergenie
+rclone
 rygel
 simple-scan
 snapd
@@ -103,7 +105,6 @@ swayidle
 swaylock
 tecla
 timeshift
-totem
 ufw
 vim
 virtualbox
@@ -112,6 +113,7 @@ waybar
 wget
 wl-clipboard
 wmenu
+xdg-desktop-portal-wlr
 yay
 yay-debug
 yelp
