@@ -14,6 +14,5 @@ compinit
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PROMPT="%B%K{red}%n%k%b @ %d%F{yellow} $%f "
-
 alias gatech="cd ~/gatech/"
 alias sdcc="cd ~/gatech/sdcc"
