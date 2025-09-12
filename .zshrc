@@ -2,6 +2,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+ENABLE_CORRECTION="true"
 setopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
@@ -14,7 +15,8 @@ compinit
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /etc/profile.d/google-cloud-cli.sh
-PROMPT="%B%K{cyan}%n%k%b @ %d%F{yellow} $%f "
-
+PROMPT="%B%K{cyan}%n%k%b @ %d%F{yellow} %#%f "
+export VISUAL=vim
 alias gatech="cd ~/gatech/"
-alias sat="cd ~/gatech/sat"
+alias sdcc="cd ~/gatech/sdcc"
+alias sdccvm="docker start -ai sdccvm"
