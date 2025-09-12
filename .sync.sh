@@ -1,0 +1,11 @@
+rclone sync ~/ onedrive:LinuxLaptopBackup/ \
+  --exclude ".*" \
+  --exclude ".*/**" \
+  --exclude "__pycache__/**" \
+  --exclude "node_modules/**" \
+  --exclude ".git/**" \
+  --exclude "*.tmp" \
+  --exclude "*.log" \
+  --exclude ".cache/**" \
+  --exclude ".local/share/Trash/**" \
+  --exclude "gatech/**"
