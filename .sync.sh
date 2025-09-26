@@ -1,3 +1,5 @@
+rclone bisync onedrive:/Pictures/wallpapers ~/Pictures/wallpapers
+rclone bisync onedrive:/Music ~/Music
 rclone sync ~/ onedrive:LinuxLaptopBackup/ \
   --exclude ".*" \
   --exclude ".*/**" \
@@ -8,4 +10,11 @@ rclone sync ~/ onedrive:LinuxLaptopBackup/ \
   --exclude "*.log" \
   --exclude ".cache/**" \
   --exclude ".local/share/Trash/**" \
-  --exclude "gatech/**"
+  --exclude "go/**" \
+  --exclude "Games/**" \
+  --exclude "Documents/dev/**" \
+  --exclude "VirtualBox VMs/**" \
+  --exclude "gatech/**" \
+  --exclude "Pictures/wallpapers/**" \
+  --exclude "Music/**" \
+  --progress
