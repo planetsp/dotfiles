@@ -16,3 +16,4 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 PROMPT="%B%K{red}%n%k%b @ %d%F{yellow} %# %f"
 alias gatech="cd ~/gatech/"
 alias sdcc="cd ~/gatech/sdcc"
+exec fish

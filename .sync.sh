@@ -13,6 +13,7 @@ rclone sync ~/ onedrive:LinuxLaptopBackup/ \
   --exclude "go/**" \
   --exclude "Games/**" \
   --exclude "Documents/dev/**" \
+  --exclude "Documents/Libation/**" \
   --exclude "VirtualBox VMs/**" \
   --exclude "gatech/**" \
   --exclude "Pictures/wallpapers/**" \
