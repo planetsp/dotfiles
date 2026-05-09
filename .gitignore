@@ -10,3 +10,4 @@
 !.sync.sh
 !.git*
 !.screenshot.png
+!.bashrc
